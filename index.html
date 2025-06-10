@@ -4,8 +4,55 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>繪圖委託 - 個人網站</title>
-  <link rel="stylesheet" href="style.css" />
+
+  <!-- 內嵌 CSS -->
+  <style>
+    body {
+      font-family: 'Noto Sans TC', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #fdfdfd;
+      color: #333;
+    }
+
+    header, footer {
+      background: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .gallery img {
+      max-width: 250px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    @media (max-width: 600px) {
+      .gallery img {
+        max-width: 100%;
+      }
+    }
+  </style>
 </head>
+
 <body>
   <header>
     <h1>歡迎來到我的繪圖委託網站</h1>
@@ -27,4 +74,4 @@
   </section>
 
   <footer>
-    <p>X：@amiii_0007</p>
+   <a href="https://x.com/amiii_0007?s=11" target="_blank">@amiii_0007</a>
